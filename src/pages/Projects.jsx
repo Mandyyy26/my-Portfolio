@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Tilt } from "react-tilt";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 // Project Data
@@ -10,7 +9,7 @@ const projects = [
     title: "CrossLend",
     description:
       "CrossLend enables secure, seamless borrowing of USDT on Avalanche by locking ETH collateral on Ethereum, powered by Chainlink CCIP.",
-    image: "../../public/CrossLend.png",
+    image: "/CrossLend.png",
     repo: "https://github.com/chainlink-Hackthon-project",
     demo: "https://your-demo-url.com",
   },
@@ -28,11 +27,10 @@ const projects = [
     title: "Aquavista",
     description:
       "A full-stack book selling platform with modern UI and scalable backend.",
-    image: "../../public/Aquavista.png",
+    image: "/Aquavista.png",
     repo: "https://github.com/Mandyyy26/Aquavista",
     demo: "https://aquavista.vercel.app/",
   },
-  // Add more projects below when ready
 ];
 
 const containerVariants = {
@@ -84,43 +82,43 @@ export default function Projects() {
           viewport={{ once: true }}
         >
           {projects.map((p) => (
-            <motion.div key={p.id} variants={cardVariants}>
-              <Tilt
-                options={{ max: 20, scale: 1.05, speed: 500 }}
-                className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl overflow-hidden shadow-md hover:shadow-xl hover:shadow-yellow-400/10 transition duration-500"
-              >
-                <div className="overflow-hidden">
-                  <img
-                    src={p.image}
-                    alt={p.title}
-                    className="w-full h-52 object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+            <motion.div
+              key={p.id}
+              variants={cardVariants}
+              whileHover={{ scale: 1.03 }}
+              className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl overflow-hidden shadow-md hover:shadow-xl hover:shadow-yellow-400/10 transition duration-500"
+            >
+              <div className="overflow-hidden">
+                <img
+                  src={p.image}
+                  alt={p.title}
+                  className="w-full h-52 object-cover hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {p.title}
+                </h3>
+                <p className="text-gray-300 text-sm mb-4">{p.description}</p>
+                <div className="flex space-x-4">
+                  <a
+                    href={p.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-blue-500 transition"
+                  >
+                    <FaGithub size={22} />
+                  </a>
+                  <a
+                    href={p.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-blue-500 transition"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                  </a>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    {p.title}
-                  </h3>
-                  <p className="text-gray-300 text-sm mb-4">{p.description}</p>
-                  <div className="flex space-x-4">
-                    <a
-                      href={p.repo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-300 hover:text-blue-500 transition"
-                    >
-                      <FaGithub size={22} />
-                    </a>
-                    <a
-                      href={p.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-300 hover:text-blue-500 transition"
-                    >
-                      <FaExternalLinkAlt size={20} />
-                    </a>
-                  </div>
-                </div>
-              </Tilt>
+              </div>
             </motion.div>
           ))}
         </motion.div>

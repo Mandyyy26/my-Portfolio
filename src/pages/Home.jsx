@@ -9,7 +9,7 @@ export default function Home() {
     <section className="relative flex flex-col items-center justify-center min-h-screen px-4 bg-gradient-to-br from-[#0f0f0f] to-[#1f1f1f] text-white overflow-hidden">
       {/* Profile Image */}
       <motion.img
-        src="../../public/Mandy.JPG"
+        src="/Mandy.JPG"
         alt="Mandeep Malik"
         className="w-40 h-40 rounded-full object-cover shadow-xl mb-6 border-4 border-white"
         initial={{ opacity: 0, scale: 0.9 }}
