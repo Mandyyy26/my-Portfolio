@@ -18,7 +18,7 @@ const projects = [
     title: "RWA TESLA",
     description:
       "Real world asset tokenization of Tesla stocks. Buy and sell tokenized shares seamlessly.",
-    image: "/images/audit-tool.png",
+    image: "/tesla.jpg",
     repo: "https://github.com/yourusername/audit-tool",
     demo: "https://your-demo-url.com",
   },
