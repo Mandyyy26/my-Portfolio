@@ -133,7 +133,7 @@ export default function Projects() {
         >
           <button
             className="px-6 py-3 rounded-full border border-white/20 text-white text-sm tracking-wide bg-white/10 hover:bg-white/20 backdrop-blur-lg transition-all"
-            onClick={() => alert("Coming soon… add more projects here")}
+            onClick={() => alert("Coming soon…")}
           >
             + See More Projects
           </button>
