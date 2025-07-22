@@ -19,7 +19,7 @@ const projects = [
     description:
       "Real world asset tokenization of Tesla stocks. Buy and sell tokenized shares seamlessly.",
     image: "/tesla.jpg",
-    repo: "https://github.com/yourusername/audit-tool",
+    repo: "https://github.com/Mandyyy26/RWA-dTsla",
     demo: "https://your-demo-url.com",
   },
   {
