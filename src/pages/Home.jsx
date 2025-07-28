@@ -55,7 +55,7 @@ export default function Home() {
           View My Projects
         </a>
         <a
-          href="https://drive.google.com/file/d/12XfqgExvpWd9qlhfPAz6NVLi9edCXFnT/view?usp=sharing"
+          href="https://drive.google.com/file/d/1iV47QxFsDH2J_WehMMaMfjBn_kL4oARR/view?usp=sharing"
           download
           className="px-8 py-3 bg-white text-gray-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-100"
         >
