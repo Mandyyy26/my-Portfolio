@@ -3,7 +3,7 @@
 Welcome to my personal developer portfolio!  
 This site is a showcase of my journey, projects, skills, and everything I’m passionate about in tech — from full-stack web development to blockchain and smart contracts.
 
-🚀 **Live Website**: [mandyy.vercel.app](https://mandyy.vercel.app)
+🚀 **Live Website**: [mandyyy.vercel.app](https://mandyyy.vercel.app)
 
 ---
 
