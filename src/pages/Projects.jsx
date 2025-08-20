@@ -6,6 +6,24 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const projects = [
   {
     id: 1,
+    title: "Blogify",
+    description:
+      "An AI-powered content automation system that generates, formats, and previews Markdown articles using n8n workflows.",
+    image: "/Blogify.png",
+    repo: "https://github.com/Mandyyy26/Blog-Generator",
+    demo: "https://blogify-mandeepmalik.netlify.app",
+  },
+  {
+    id: 2,
+    title: "ChatSpace",
+    description:
+      "A real-time chat application built with React, GraphQL (Hasura), and Nhost Auth.",
+    image: "/Chatspace.png",
+    repo: "https://github.com/Mandyyy26/TaskHive",
+    demo: "https://subspace-mandeepmalik.netlify.app",
+  },
+  {
+    id: 3,
     title: "CrossLend",
     description:
       "CrossLend enables secure, seamless borrowing of USDT on Avalanche by locking ETH collateral on Ethereum, powered by Chainlink CCIP.",
@@ -14,7 +32,7 @@ const projects = [
     demo: "https://your-demo-url.com",
   },
   {
-    id: 2,
+    id: 4,
     title: "RWA TESLA",
     description:
       "Real world asset tokenization of Tesla stocks. Buy and sell tokenized shares seamlessly.",
@@ -23,7 +41,7 @@ const projects = [
     demo: "https://your-demo-url.com",
   },
   {
-    id: 3,
+    id: 5,
     title: "Aquavista",
     description:
       "A full-stack book selling platform with modern UI and scalable backend.",
