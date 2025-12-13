@@ -182,7 +182,7 @@ export default function Portfolio() {
 
             {/* CV/Resume Link */}
             <motion.a
-              href="https://drive.google.com/file/d/1e8sxhQduqPgV-QkeN_1yDOl8WfRk9K_H/view?usp=sharing"
+              href="https://drive.google.com/file/d/1z0zlz-uwmCxQRWVCZ4MRz77vR5Lk3_t-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-slate-900 font-semibold rounded-full text-sm transition-all duration-300 shadow-lg shadow-green-500/50"
