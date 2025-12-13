@@ -43,23 +43,23 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Blogify",
+      title: "ChainWatch",
       description:
-        "AI-powered content automation system that generates, formats, and previews Markdown articles using n8n workflows.",
-      image: "/Blogify.png",
-      repo: "https://github.com/Mandyyy26/Blog-Generator",
-      demo: "https://blogify-mandeepmalik.netlify.app",
-      tags: ["n8n", "AI", "Markdown"],
+        "A decentralized uptime monitoring system where validators across the globe check website health and report status to a central hub for real-time tracking and analytics.",
+      image: "/dpin.png",
+      repo: "https://github.com/Mandyyy26/dpin_monitoring",
+      demo: "https://blogify-mandeepmalik.netlify.app", // TODO: add demo
+      tags: ["Blockchain"],
     },
     {
       id: 2,
-      title: "ChatSpace",
+      title: "AgentX402",
       description:
-        "Real-time chat application built with React, GraphQL (Hasura), and Nhost Auth.",
-      image: "/Chatspace.png",
-      repo: "https://github.com/Mandyyy26/TaskHive",
-      demo: "https://subspace-mandeepmalik.netlify.app",
-      tags: ["React", "GraphQL", "Hasura"],
+        "Autonomous shopping assistance using polygon agentic x402 payments.",
+      image: "/Agentx402.png",
+      repo: "https://github.com/Mandyyy26/Agentx402",
+      demo: "https://subspace-mandeepmalik.netlify.app", // TODO: add demo
+      tags: ["React", "https payments", "NLM"],
     },
     {
       id: 3,
@@ -82,6 +82,26 @@ export default function Portfolio() {
     },
     {
       id: 5,
+      title: "Blogify",
+      description:
+        "AI-powered content automation system that generates, formats, and previews Markdown articles using n8n workflows.",
+      image: "/Blogify.png",
+      repo: "https://github.com/Mandyyy26/Blog-Generator",
+      demo: "https://blogify-mandeepmalik.netlify.app",
+      tags: ["n8n", "AI", "Markdown"],
+    },
+    {
+      id: 6,
+      title: "ChatSpace",
+      description:
+        "Real-time chat application built with React, GraphQL (Hasura), and Nhost Auth.",
+      image: "/Chatspace.png",
+      repo: "https://github.com/Mandyyy26/TaskHive",
+      demo: "https://subspace-mandeepmalik.netlify.app",
+      tags: ["React", "GraphQL", "Hasura"],
+    },
+    {
+      id: 7,
       title: "Aquavista",
       description: "Full-stack book selling platform with modern UI.",
       image: "/Aquavista.png",
